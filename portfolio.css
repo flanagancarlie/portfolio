@@ -2,12 +2,29 @@
     background-color: #FBEAD9;
     font-family: 'Georgia', serif;
     font-style: normal;
+    color: #615447;
+}
+
+.album {
+    width: 200px;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.album img {
+    width: 200px;
+    height: 200px;
+}
+
+
+.album p {
+    font-size: 16px;
+    text-align: center;
 }
 
 .header {
     padding: 50px;
     text-align: center;
-    color: #615447;
 }
 
 
@@ -18,7 +35,6 @@
 .navbar a {
     flex: 100%;
     display: block;
-    color: #615447;
     text-align: center;
     padding: 10px 5px;
     text-decoration: none;
@@ -31,7 +47,6 @@
 
 .navbar a:hover {
     background-color: #ddd;
-    color: #615447;
 }
 
 * {
@@ -51,19 +66,24 @@
     padding-right: 5%;
 }
 
+.side img {
+    width: 100px;
+    height: 100px;
+}
+
 .main {
     flex: 80%;
     background-color: #FBEAD9;
-    padding-left: 10%;
-    padding-right: 10%;
+
 }
 
 .main h1 {
     margin-top: 0;
     font-size: 128px;
-    color:#615447;
     font-weight: 400;
     line-height: 145px;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 
