@@ -55,8 +55,8 @@
     width: 80%;
     justify-content: left;
     text-align: left;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .side {
@@ -102,7 +102,7 @@
 }
 
 .project {
-    width: 750px;
+    width: 80%;
     margin: 2%;
     background-color: #FDCDC5;
     border-color: #615447;
